@@ -37,7 +37,7 @@ public class TrophiesRepository : ITrophiesRepository
             orderBy = orderBy.ToLower();
             switch (orderBy)
             {
-                case "competition": // fall through to next case
+                case "competition": 
                 case "competition_asc":
                     result = result.OrderBy(t => t.Competition);
                     break;
@@ -49,7 +49,7 @@ public class TrophiesRepository : ITrophiesRepository
                     result = result.OrderBy(t => t.Year);
                     break;
                 case "year_desc":
-                    result = result.OrderByDescending(a => a.Year);
+                    result = result.OrderByDescending(t => t.Year);
                     break;
                 default:
                     break;
