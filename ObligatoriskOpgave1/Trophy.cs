@@ -40,8 +40,8 @@ public class Trophy
 
     public void ValidateYear()
     {
-        if (Year < 1970 || Year > DateTime.Now().YearOnly())
-            throw new ArgumentOutOfRangeException("Year must be between 1970 and 2024: " + Year);
+        if (Year < 1970 || Year > DateTime.Now.Year)
+            throw new ArgumentOutOfRangeException("Year must be between 1970 and current year: " + Year);
     }
 
     public void Validate()

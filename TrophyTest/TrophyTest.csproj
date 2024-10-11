@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ObligatoriskOpgave1\ObligatoriskOpgave1.csproj" />
+    <ProjectReference Include="..\ObligatoriskOpgave1\ObligatoriskOpgave_Del1_Del2.csproj" />
   </ItemGroup>
 
   <ItemGroup>

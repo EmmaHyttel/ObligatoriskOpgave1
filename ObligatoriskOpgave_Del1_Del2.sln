@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObligatoriskOpgave1", "ObligatoriskOpgave1\ObligatoriskOpgave1.csproj", "{B0EBA5DE-39FA-451F-838C-3146E8357408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObligatoriskOpgave_Del1_Del2", "ObligatoriskOpgave1\ObligatoriskOpgave_Del1_Del2.csproj", "{B0EBA5DE-39FA-451F-838C-3146E8357408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrophyTest", "TrophyTest\TrophyTest.csproj", "{35C91707-1957-40A9-A4E9-7B710F20C724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrophyTest", "TrophyTest\TrophyTest.csproj", "{35C91707-1957-40A9-A4E9-7B710F20C724}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
